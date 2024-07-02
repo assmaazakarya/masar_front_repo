@@ -1,0 +1,213 @@
+.rec_secCarousle{
+    position: relative;
+    top: 800px;
+    /* width: 80%; */
+    margin: auto;
+}
+.rec_sec_top{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.rec_sec_top_left h4{
+    font-size: 20px;
+    font-weight: 500;
+    color:#074040;
+}
+.rec_sec_top_right{
+    display: flex;
+   gap: 50px;
+}
+.rec_sec_top_line_parent{
+    width: 250px;
+    height: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color:rgb(189, 187, 187);
+}
+.rec_sec_top_line{
+    width: 150px;
+    height: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #074040;
+    position: relative;
+    animation: back 1s;
+    animation-fill-mode: backwards;
+}
+@keyframes back{
+    100% { left: 0px; top: 0px; }
+    25%  {left:100px; top:0px;}
+    0%   {left:100px; top:0px;}
+}
+.rec_sec_top_line_move {
+ animation: line 2s;
+ width: 150px;
+ height: 5px;
+ border: none;
+ border-radius: 5px;
+ background-color: #074040;
+ position: relative;
+ animation-fill-mode: forwards;
+}
+@keyframes line {
+    0%   {left:0px; top:0px;}
+    25%  {left:100px; top:0px;}
+    100% { left: 100px; top: 0px; }
+}
+
+
+.rec_sec_top_back{
+   width: 60px;
+   height: 60px;
+   border: 3px solid #074040;
+   border-radius: 50%;
+   position: relative;
+   top: -28px;
+   display: flex;
+   align-items: center;
+   color:#074040;
+   cursor: pointer;
+    }
+    
+.rec_sec_top_back:hover{
+    border: 3px solid #074040c5;
+    background-color: aliceblue;
+    color: #074040c5;
+    }
+
+.rec_sec_top_back_icon{
+        position: absolute;
+        left: 15px;
+        font-size: 23px;
+    }
+
+.rec_sec_top_forward{
+        width: 60px;
+        height: 60px;
+        border: 3px solid #074040;
+        border-radius: 50%;
+        position: relative;
+        top: -28px;
+        display: flex;
+        align-items: center;
+        color:#074040;
+        cursor: pointer;
+    }
+.rec_sec_top_forward_icon{
+        position: absolute;
+        left: 15px;
+        font-size: 23px;
+    }
+ .rec_sec_top_forward:hover{
+        border: 3px solid #074040c5;
+        background-color: aliceblue;
+        color: #074040c5;
+}
+/* .rec_sec_bottom {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 40px;
+    justify-content: center;
+    transition: transform 0.5s ease;
+  }
+  
+  .courseCard {
+    width: 300px;
+    height: 350px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.425);
+    position: relative;
+  } */
+
+
+
+  .rec_sec_bottom {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 40px;
+    justify-content: center;
+    transition: transform 0.5s ease;
+    /* position: relative; */
+}
+.courseCard {
+    width: 300px;
+    height: 350px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.425);
+    position: relative;
+    /* transition: transform 0.5s ease; */
+}
+
+.carButton {
+    margin-top: 50px;
+    border:none;
+    cursor: pointer;
+    background-color:#074040;
+    color: var(--dark-yellow-color);
+    padding: 12px 75px;
+    border-radius:7px ;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--main-font);
+    transition: transform 0.5s ease 0s;
+    position: relative;
+    left: 530px;     
+    
+}
+
+.carButton:hover{
+     transform: scale(1.1); 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* .rec_sec_bottom{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 40px;
+    justify-content: center;
+} */
+
+/* .courseCard{
+    width: 300px;
+    height: 350px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.425);
+    animation: moveforward 4s;
+    position: relative;
+    animation-fill-mode: forwards;
+}
+@keyframes moveforward {
+    0%   {left:0px; top:0px;}
+    25%  {left:180px; top:0px; opacity: 0.5; visibility: hidden;}
+    100% { left: 180px; top: 0px;  opacity: 0.5; visibility: hidden; }
+}
+.courseCardDefault{
+    width: 300px;
+    height: 350px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.425);
+    position: relative;
+    animation: defualt 3s;
+    animation-fill-mode: backwards;
+}
+@keyframes defualt{
+    100% { left: 0px; top: 0px;}
+    25%  {left:250px; top:0px;}
+    0%   {left:250px; top:0px;}
+} */

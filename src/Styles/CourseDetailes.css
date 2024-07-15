@@ -1,0 +1,34 @@
+.mt-8 {
+  margin-top: 80px;
+}
+
+.bg-main {
+  background: #bdf0fb;
+}
+
+.text-btn {
+  color: #b5ba18;
+}
+.fixed-height-image {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-title,
+.card-text {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.image-container {
+  height: 200px;
+  overflow: hidden;
+}
+
+.course-details {
+}
+
+.buy-card-container {
+  margin: 140px 30px;
+}

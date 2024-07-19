@@ -93,7 +93,7 @@ function CourseContent() {
               key={index}
               className="col-lg-6 col-12 mb-2 d-flex align-items-center gap-2"
             >
-              <LuBadgeCheck className="text-lg " />
+              <LuBadgeCheck className="text-lg flex-shrink-0 " />
               <p className="m-0">{item}</p>
             </div>
           ))}

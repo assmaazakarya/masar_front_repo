@@ -7,11 +7,12 @@ import Login from "./components/Login/Login";
 import Singup from "./components/Singup/Singup";
 import Notfound from "./components/Notfound/Notfound";
 import Courses from "./components/Courses/Courses";
-import Lessons from "./components/Lessons/Lessons";
+// import Lessons from "./components/Lessons/Lessons";
 import Contact from "./components/Contact/Contact";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import CourseDetails from "./Pages/CourseDetails";
 import Layout from "./components/Layouts/Layout";
+import LessonDetails from "./Pages/LessonDetails";
 
 function App() {
   return (
@@ -21,11 +22,12 @@ function App() {
           <Routes>
             <Route path="/" element={<Landing />} />
             <Route path="/courses" element={<Courses />} />
-            <Route path="/lesson" element={<Lessons />} />
+            {/* <Route path="/lesson" element={<Lessons />} /> */}
             <Route path="/singup" element={<Singup />} />
             <Route path="/login" element={<Login />} />
             <Route path="/about" element={<About />} />
             <Route path="/CourseDetails" element={<CourseDetails />} />
+            <Route path="/LessonVideo" element={<LessonDetails />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<Notfound />} />
           </Routes>

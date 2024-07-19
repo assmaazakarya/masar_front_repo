@@ -48,3 +48,7 @@ body {
     width: 75% !important;
   }
 }
+.lesson-container {
+  width: 96%;
+  margin: 0 auto;
+}

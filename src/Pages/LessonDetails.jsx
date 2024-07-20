@@ -1,5 +1,6 @@
+import LessonBar from "../components/Lessons/LessonBar";
 import LessonContent from "../components/Lessons/LessonContent";
-import Lessons from "../components/Lessons/Lessons";
+// import Lessons from "../components/Lessons/Lessons";
 
 function LessonDetails() {
   return (
@@ -12,7 +13,9 @@ function LessonDetails() {
         </div>
         <div className="col-12 col-md-4">
           <div className="p-3 ">
-            <Lessons />
+        
+
+            <LessonBar />
           </div>
         </div>
       </div>
